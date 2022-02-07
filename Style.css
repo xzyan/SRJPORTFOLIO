@@ -1,0 +1,207 @@
+/* ALL */
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(116, 118, 231);
+}
+h2{
+    color:rgb(255, 255, 255);
+    font-family: inherit;
+    letter-spacing:1px;
+    font-size: 40px;
+}
+.my_team, .about{
+    padding: 1.5vw;
+}
+/* AKHIR ALL */
+
+/* Navbar */
+.navbar{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 9000;
+}
+
+/* Navbar All */
+
+
+/* Jumbotron */
+.jumbotron{
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 5px 30px rgb(236, 236, 236);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.jumbotron .container{
+   text-align: center;
+   color:rgb(0, 0, 0);
+}
+.jumbotron .container h1{
+    font-family: cursive;
+    letter-spacing: 0.2vw;
+}
+.jumbotron .container span{
+    display: block;
+    font-family: monospace;
+    letter-spacing:2px;
+    word-spacing:2px;
+    color: rgb(117, 228, 159);
+}
+/* Media Query */
+@media (max-width:600px) {
+    .jumbotron .container{
+        height: 350px;
+        margin-top: 250px;
+        text-align: center;
+        color:rgb(0, 0, 0);
+     }
+     .jumbotron .container h1{
+         font-family: cursive;
+         letter-spacing: 0.2vw;
+     }
+     .jumbotron .container span{
+         font-family: monospace;
+         letter-spacing:2px;
+         word-spacing:2px;
+     }
+}
+#typing {
+    width: 0ch;
+    color: white;
+    float: center;
+    font-family: sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 5s steps(22) 1s infinite alternate;
+    }
+    #typing span{
+    text-align: center;
+    color:#33ff00;}
+    #line {
+    float: center;
+    color: white;
+    font-weight:bold;
+    font-size: 60px;
+    animation: crow 0.5s linear 0s infinite;
+    }
+    @keyframes typing {
+    from {
+    width: 0ch;
+    }
+    to {
+    width: 25ch;
+    }
+    }
+    @keyframes crow {
+    from {
+    opacity: 0;
+    }
+    to {
+    opacity: 1;
+    }
+    }
+/* AKHIR JUMBOTRON */
+
+
+/* ABOUT */
+.about{
+    margin-top: 200px;
+    padding-top: 90px;
+    text-align: center;
+}
+.about .item{
+    height:10%;
+    margin-top: 50px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+    border:2px solid black;
+}
+.about h4{
+    margin-top: 50px;
+}
+
+/* Akhiir ABOUT */
+
+/* MY SERVICE */
+.my_service{
+    margin-top: 250px;
+    text-align: center;
+    padding-top: 200px;
+}
+.my_service .item{
+    margin: 20px;
+}
+.my_service .card{
+    margin-top: 50px;
+    text-align: center;
+    letter-spacing: 2px;
+    border-radius: 30px;
+    border:2px solid black;
+    box-shadow: 1px 2px 3px black;
+}
+.my_service .card-body b{
+    font-size: 102px;
+}
+
+/* Akhir Service */
+
+
+/* My Team */
+.my_team{
+  padding-top: 200px;
+  margin-top: 250px;
+  text-align: center;
+}
+.my_team .card{
+    margin-top: 50px;
+    border-radius:20px;
+    border:2px solid black;
+    box-shadow: 1px 2px 3px black;
+}
+.my_team .card button{
+    border-radius: 4px;
+    width:200px;
+    border:1px solid rgb(0, 0, 0);
+    background-color: lightcoral;
+}
+
+/* Akhir dari my team */
+
+
+/* Footer */
+.footer{
+    margin-top: 300px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color:wheat;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.footer .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:wheat;
+    border:none;
+}
+.footer .card .card-body{
+    margin-top: -50px;
+}
+.footer .card .card-body a{
+   color:black;
+}
